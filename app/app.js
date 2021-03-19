@@ -127,8 +127,9 @@ function Q7() {
   let ch2 = 6;
   let gus2 = ['red', 'black', 'yellow'];
   let count = 0;
+  let ans2;
   for (let i = 0; i < ch2; i++) {
-    let ans2 = prompt('Whate are my favorite colors?(I love three)(you can not use the same right answer twice!)');
+    ans2 = prompt('Whate are my favorite colors?(I love three)(you can not use the same right answer twice!)').toLocaleLowerCase();
     // .find(element => element === ans2) well return the first element that satisfy the condition
     if (gus2.find(element => element === ans2)) {
       alert('you are correct ! 0.33+ point !!');
@@ -137,7 +138,7 @@ function Q7() {
       count += 1;
       grade+=0.33;
     }else if (ans2 === 'red' || ans2 === 'black' || ans2 === 'yellow') {
-      alert('you have entered this answer befor !');
+      alert('you have entered this answer before !');
     }else {
       alert('you are wrong!');
     }
