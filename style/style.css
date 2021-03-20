@@ -25,7 +25,7 @@ h4 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
-    color: rgb(4, 31, 182);
+    color: rgb(5, 156, 0);
     font-size: 18pt;
 }
 ul {
@@ -48,17 +48,12 @@ ol {
 }
 li {
     display: list-item;
-    list-style: none;
     text-align: -webkit-match-parent;
-    border-radius: 10px;
-    border: thick double rgb(13, 62, 223);
-    margin: 3px;
-    padding: 5px;
 }
 footer{
     background-color: rgb(41, 107, 206);
     color: white;
-    font-weight: bolder;
+    font-weight: bolder;  
   }
   header{
       background-color: rgb(10, 169, 197);
@@ -69,17 +64,6 @@ footer{
   }
 .order1{
     list-style: none;
-}
-ul.order2{
-    font-size: 1.5rem;   
-}
-#top10{
-    font-size: 3rem;
-    font-weight: bold;
-    color: rgb(240, 16, 16);
-}
-b{
-    font-weight: bold;
 }
   .about {
       font-weight: bolder;
@@ -102,4 +86,8 @@ b{
   .rl{
       color: red;
   }
-  
+  span{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+    color: tomato;
+  }
